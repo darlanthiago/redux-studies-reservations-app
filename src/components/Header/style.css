@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  padding: 10px 10px;
+}
+
+.logo {
+  max-width: 110px;
+  max-height: 110px;
+}
+
+.logo:hover {
+  filter: brightness(0.9);
+  transition: 0.2s filter;
+}
+
+.link-reservation {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.link-reservation div {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.link-reservation:hover {
+  filter: brightness(0.9);
+  transition: 0.2s filter;
+}
+
+.link-reservation strong {
+  color: #fff;
+  display: block;
+}
+
+.link-reservation span {
+  color: #ddd;
+  font-size: 15px;
+}
